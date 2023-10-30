@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0 auto;
+    background-color: #F2D0C4;
+}
+
+header{
+    background: #593622;
+    height: 10px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2
+}
+
+
+
+#it{
+    border-radius: 1%;
+    padding-top: 90px;
+    padding-left: 90px;
+    flex: 1;
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 80px;
+    gap: 2px;
+}
+.desc {
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#precio {
+    padding-bottom: 40px;
+    padding-left: 0;
+    border-bottom: 1px solid gray;
+
+}
+
+#price {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#form {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;;
+}
+
+#titulo {
+    padding-bottom: 70px;
+    padding-top: 20px;
+    
+}
+
+#comprar, #alquilar {
+    width: 250px;
+    height: 100px;
+    margin-inline: 40px;
+}
+
+#carrito{
+    width: 150px;
+    height: 70px;
+    margin-inline: 40px;
+}
+
+#titulo-libro {
+    font-size: 40px;
+}
+
+#autor{
+    font-size: 30px;
+}
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+ul {
+    padding-top: 30px;
+}
+
+#lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   margin: 0px;
+}
+#lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+   margin-inline: 30px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#resumen, #info{
+    padding-top: 30px;
+}
+
+#logo {
+    margin-left: -200;
+    z-index: 3;
+    position: relative;
+}
+
+#comprar, #alquilar, #carrito{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 3%;
+}
+
+#comprar:hover, #alquilar:hover, #carrito:hover {
+    background: #0b7dda;
+    color: white;
+}

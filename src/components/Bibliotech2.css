@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    /*background: #bbe1fa;*/
+    /*background: #454546;*/
+    background: #A68C76;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/*.navbar {
+    display: flex;
+    margin-right: 10px;
+}*/
+
+.logo img{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 100%;
+
+}
+
+/*.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: gray;
+}*/
+
+header {
+    height: 60vh;
+    /*margin: 0;
+    background-image: url(Biblioteca-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    background: url(./Images/imagenoscura.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#bien .title {
+    padding-bottom: 200px;
+}
+
+p {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.frase {
+    font-size: 35px;
+}
+
+.cont{
+    margin-bottom: 40px;
+    margin-top: 15px;
+    color: black;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.content {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.books {
+    padding-top: 90px;
+    border-top: 90px;
+    padding: 30px;
+    /*background: #666666;*/
+    background: #D9AFA0;
+}
+
+#libros .title {
+    padding-top: 80px;
+}
+
+.buscar {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 6px solid black;
+    
+}
+
+.box-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90px;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact {
+    /*background: #bbe1fa;*/
+    /*background: #eca023;*/
+    background: #F2D0C4;
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 100%;
+    height: 30vh;
+
+
+}
+
+@media (max-width: 768px){
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .books{
+        height: 100vh;
+    }
+    .navbar{
+        display: none
+    }
+}
+
+.navegador {
+    margin-right: 30px;
+}
+
+nav {
+    float: left;
+}
+  
+nav ul {
+    list-style: none;
+    /*overflow: hidden;*/ 
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    text-decoration: none;
+    margin-inline: 0px;
+    font-size: 19px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background: #eca023;
+    transition: 0.3s;
+}
+
+
+
+.lista ul {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.lista li {
+    list-style-type: none;
+    display: inline-table;
+    padding-right: 5px;
+    font-size: 22px;
+    margin-inline: 10px;
+}
+
+.frase {
+    font-size: 80px;
+    color: white;
+}
+
+#bienv {
+    color: white;
+    font-size: 60px;
+}
+
+h3{
+    font-size: 20px;
+    color: black;
+}
+
+
+.menu {
+    margin-top: -400px;
+    color: black;
+}
+
+.icono {
+    margin-left: 150px;
+}
+
+
+.context{
+    color: black;
+}
+
+
+
+ul li ul.dropdown li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-content: space-evenly;
+    
+}
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    /*background: #454546;*/
+    background: #A68C76;;
+}
+ul li:hover ul.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-content: space-evenly;
+}
+
+.genero{
+    margin-top: 30px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+}
+
+.gallery{
+    margin: 10px 20px;
+    width: 350px;
+    position: relative;
+}
+
+.gallery:hover {
+    transform: rotate(-3deg);
+    
+}
+
+.pie{
+    text-align: center;
+}
+
+.box2{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90px;
+    margin-top: 250px;
+}
+
+.box2 .box{
+    height: 11rem;
+    width: 17rem;
+    text-align: center;
+    margin: 2rem;
+}
