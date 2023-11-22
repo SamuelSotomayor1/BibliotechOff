@@ -21,7 +21,7 @@ export const Ventas = () => {
             <h2 id="autor">Stephen King</h2>
         </div>
         <div id="precio">
-            <span id="price">$57.99</span>
+            <span id="price">$50.00</span>
         </div>
         <div id="detalles">
             <div id="form">
